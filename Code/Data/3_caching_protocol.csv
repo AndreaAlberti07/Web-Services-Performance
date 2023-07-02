@@ -1,0 +1,7 @@
+site_policy,protocol,size(MB),1,2,3,4,5
+off_white_nocache,http1.1_nocache,8.41,3.87,2.95,2.92,2.50,2.34
+off_white_cache,http1.1_cache,8.41,0.09,0.15,0.22,0.11,0.12
+off_white_nocache,http2_nocache,8.41,1.14,1.10,1.12,1.15,1.12
+off_white_cache,http2_cache,8.41,0.09,0.1,0.08,0.1,0.3
+off_white_nocache,http3_nocache,8.41,1,0.90,0.96,0.86,0.88
+off_white_cache,http3_cache,8.41,0.13,0.11,0.08,0.09,0.15

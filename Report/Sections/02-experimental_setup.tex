@@ -1,0 +1,34 @@
+\begin{itemize}[leftmargin=9pt]
+\item \textbf{Why}: The first goal involves investigating the impact of the number of parallel connections, caching policies and HTTP version on the PLT. The second goal is to compare different websites 
+in different conditions to asses their performance.
+\item \textbf{Which}: The used websites are listed in table \ref{tab:websites}.
+\item \textbf{What}: The metrics used are the PLT for the first goal, while RPS and TPR are used for the second one.
+\item \textbf{Where}: The experiments are conducted with a Macbook Pro 14, equipped with a Virtualized Ubuntu 22.04 LTS.
+The browser is \textit{Mozilla Firefox} and the internet connection is a FTTH 200/20 Mbps provided by Vodafone IT.
+\item \textbf{How}: The used tools are the \textit{Apache Benchmark}, the \textit{Web Dev. Tools} built-in in Mozilla Firefox and \textit{h2load tool}.
+\item \textbf{When}: The experiments are conducted several times in the same day to provide reliable results.
+\end{itemize}
+
+\begin{table}[H]
+    \small
+    \centering
+    \rowcolors{2}{pyblue!25}{white}
+    \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor{pyblue!60}
+    \textbf{Website} & \textbf{URL} \\ \hline
+    Apple & \url{https://www.apple.com/store} \\ 
+    Harvard & \url{https://www.harvard.edu/} \\ 
+    MIT & \url{https://www.mit.edu/} \\ 
+    V.News & \url{https://www.vallesabbianews.it/} \\ 
+    GZ & \url{https://www.grafichezorzi.it/} \\ 
+    V.Spluga & \url{https://vallespluga.it/} \\ 
+    Unitus & \url{http://www.unitus.it/} \\ 
+    MIT gov & \url{https://www.mit.gov.it/} \\ 
+    Istat & \url{https://www.istat.it/} \\ 
+    OffWhite & \url{https://www.off---white.com/}\\ \hline
+    \end{tabular}
+    \caption{\small List of tested websites}
+    \label{tab:websites}
+\end{table}
+

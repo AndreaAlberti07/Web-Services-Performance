@@ -1,0 +1,5278 @@
+--------------------------------------TEST FROM PAVIA WITH FTTH VODAFONE--------------------------------------------------
+
+
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.140 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1596210 bytes
+HTML transferred:       1584500 bytes
+Requests per second:    8.77 [#/sec] (mean)
+Time per request:       114.030 [ms] (mean)
+Time per request:       114.030 [ms] (mean, across all concurrent requests)
+Transfer rate:          1367.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   43  10.5     39      70
+Processing:    47   71  22.9     66     116
+Waiting:       18   40  23.6     35      87
+Total:         81  114  30.4    111     177
+
+Percentage of the requests served within a certain time (ms)
+  50%    111
+  66%    113
+  75%    116
+  80%    156
+  90%    177
+  95%    177
+  98%    177
+  99%    177
+ 100%    177 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.928 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259299 bytes
+HTML transferred:       2249770 bytes
+Requests per second:    10.78 [#/sec] (mean)
+Time per request:       92.763 [ms] (mean)
+Time per request:       92.763 [ms] (mean, across all concurrent requests)
+Transfer rate:          2378.47 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       38   45  12.0     40      77
+Processing:    43   48   5.8     47      59
+Waiting:       12   17   6.7     14      32
+Total:         81   93  15.8     87     130
+
+Percentage of the requests served within a certain time (ms)
+  50%     87
+  66%     87
+  75%     93
+  80%    112
+  90%    130
+  95%    130
+  98%    130
+  99%    130
+ 100%    130 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.848 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      487710 bytes
+HTML transferred:       483790 bytes
+Requests per second:    11.80 [#/sec] (mean)
+Time per request:       84.775 [ms] (mean)
+Time per request:       84.775 [ms] (mean, across all concurrent requests)
+Transfer rate:          561.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   40   4.4     38      50
+Processing:    28   45  42.1     31     164
+Waiting:       17   33  42.1     18     153
+Total:         63   84  41.8     71     202
+
+Percentage of the requests served within a certain time (ms)
+  50%     71
+  66%     75
+  75%     79
+  80%     81
+  90%    202
+  95%    202
+  98%    202
+  99%    202
+ 100%    202 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.929 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3192410 bytes
+HTML transferred:       3169000 bytes
+Requests per second:    10.37 [#/sec] (mean)
+Time per request:       96.453 [ms] (mean)
+Time per request:       96.453 [ms] (mean, across all concurrent requests)
+Transfer rate:          1616.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   41   5.7     41      56
+Processing:    47   55   5.9     55      67
+Waiting:       17   25   5.6     24      38
+Total:         82   96   8.3     97     110
+
+Percentage of the requests served within a certain time (ms)
+  50%     97
+  66%    101
+  75%    104
+  80%    105
+  90%    108
+  95%    110
+  98%    110
+  99%    110
+ 100%    110 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.713 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4518598 bytes
+HTML transferred:       4499540 bytes
+Requests per second:    11.67 [#/sec] (mean)
+Time per request:       85.664 [ms] (mean)
+Time per request:       85.664 [ms] (mean, across all concurrent requests)
+Transfer rate:          2575.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   40   5.4     40      61
+Processing:    41   45   4.2     43      56
+Waiting:       11   15   4.2     14      26
+Total:         79   85   6.4     84     103
+
+Percentage of the requests served within a certain time (ms)
+  50%     84
+  66%     85
+  75%     87
+  80%     92
+  90%     97
+  95%    103
+  98%    103
+  99%    103
+ 100%    103 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.667 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      975420 bytes
+HTML transferred:       967580 bytes
+Requests per second:    12.00 [#/sec] (mean)
+Time per request:       83.349 [ms] (mean)
+Time per request:       83.349 [ms] (mean, across all concurrent requests)
+Transfer rate:          571.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   40   3.9     40      54
+Processing:    28   43  27.6     33     149
+Waiting:       15   31  27.1     21     136
+Total:         65   83  29.2     75     196
+
+Percentage of the requests served within a certain time (ms)
+  50%     75
+  66%     79
+  75%     91
+  80%     94
+  90%    108
+  95%    196
+  98%    196
+  99%    196
+ 100%    196 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.827 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4788630 bytes
+HTML transferred:       4753500 bytes
+Requests per second:    10.61 [#/sec] (mean)
+Time per request:       94.246 [ms] (mean)
+Time per request:       94.246 [ms] (mean, across all concurrent requests)
+Transfer rate:          1653.97 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   36   2.9     36      48
+Processing:    47   58  18.4     54     149
+Waiting:       19   28  18.4     23     120
+Total:         81   94  18.8     88     185
+
+Percentage of the requests served within a certain time (ms)
+  50%     88
+  66%     93
+  75%     95
+  80%    100
+  90%    104
+  95%    112
+  98%    185
+  99%    185
+ 100%    185 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.547 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6777896 bytes
+HTML transferred:       6749310 bytes
+Requests per second:    11.78 [#/sec] (mean)
+Time per request:       84.893 [ms] (mean)
+Time per request:       84.893 [ms] (mean, across all concurrent requests)
+Transfer rate:          2598.98 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       32   38   7.0     36      67
+Processing:    41   47   8.3     43      78
+Waiting:       12   15   5.2     13      37
+Total:         74   85  13.9     80     138
+
+Percentage of the requests served within a certain time (ms)
+  50%     80
+  66%     81
+  75%     85
+  80%     88
+  90%     98
+  95%    126
+  98%    138
+  99%    138
+ 100%    138 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.125 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1463130 bytes
+HTML transferred:       1451370 bytes
+Requests per second:    14.12 [#/sec] (mean)
+Time per request:       70.846 [ms] (mean)
+Time per request:       70.846 [ms] (mean, across all concurrent requests)
+Transfer rate:          672.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   39   4.3     38      51
+Processing:    25   31   7.2     29      60
+Waiting:       15   20   7.1     18      48
+Total:         63   71   8.8     68     103
+
+Percentage of the requests served within a certain time (ms)
+  50%     68
+  66%     70
+  75%     72
+  80%     76
+  90%     82
+  95%     87
+  98%    103
+  99%    103
+ 100%    103 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      2
+Time taken for tests:   0.716 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1596206 bytes
+HTML transferred:       1584500 bytes
+Requests per second:    13.96 [#/sec] (mean)
+Time per request:       143.251 [ms] (mean)
+Time per request:       71.625 [ms] (mean, across all concurrent requests)
+Transfer rate:          2176.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   42   3.5     43      46
+Processing:    52   83  42.8     68     182
+Waiting:       22   48  44.3     28     149
+Total:         92  125  43.1    113     227
+
+Percentage of the requests served within a certain time (ms)
+  50%    113
+  66%    116
+  75%    117
+  80%    177
+  90%    227
+  95%    227
+  98%    227
+  99%    227
+ 100%    227 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      2
+Time taken for tests:   0.544 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259299 bytes
+HTML transferred:       2249770 bytes
+Requests per second:    18.38 [#/sec] (mean)
+Time per request:       108.828 [ms] (mean)
+Time per request:       54.414 [ms] (mean, across all concurrent requests)
+Transfer rate:          4054.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       39   47  12.5     43      81
+Processing:    42   51  15.6     45      94
+Waiting:       12   14   1.7     15      17
+Total:         85   98  20.5     89     137
+
+Percentage of the requests served within a certain time (ms)
+  50%     89
+  66%     90
+  75%     92
+  80%    135
+  90%    137
+  95%    137
+  98%    137
+  99%    137
+ 100%    137 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      2
+Time taken for tests:   0.451 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      487710 bytes
+HTML transferred:       483790 bytes
+Requests per second:    22.16 [#/sec] (mean)
+Time per request:       90.263 [ms] (mean)
+Time per request:       45.131 [ms] (mean, across all concurrent requests)
+Transfer rate:          1055.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       37   40   2.2     40      44
+Processing:    27   41  15.4     43      71
+Waiting:       15   28  15.6     26      60
+Total:         65   81  15.9     84     111
+
+Percentage of the requests served within a certain time (ms)
+  50%     84
+  66%     86
+  75%     88
+  80%    102
+  90%    111
+  95%    111
+  98%    111
+  99%    111
+ 100%    111 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      2
+Time taken for tests:   1.187 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3192416 bytes
+HTML transferred:       3169000 bytes
+Requests per second:    16.85 [#/sec] (mean)
+Time per request:       118.690 [ms] (mean)
+Time per request:       59.345 [ms] (mean, across all concurrent requests)
+Transfer rate:          2626.67 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   43   7.7     42      66
+Processing:    49   67  22.9     57     128
+Waiting:       18   35  20.6     27      95
+Total:         87  110  26.3     99     174
+
+Percentage of the requests served within a certain time (ms)
+  50%     99
+  66%    110
+  75%    116
+  80%    131
+  90%    168
+  95%    174
+  98%    174
+  99%    174
+ 100%    174 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      2
+Time taken for tests:   0.957 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4518596 bytes
+HTML transferred:       4499540 bytes
+Requests per second:    20.90 [#/sec] (mean)
+Time per request:       95.691 [ms] (mean)
+Time per request:       47.845 [ms] (mean, across all concurrent requests)
+Transfer rate:          4611.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   43   6.0     43      60
+Processing:    42   47   4.5     46      57
+Waiting:       12   14   1.8     14      18
+Total:         81   90   8.0     90     112
+
+Percentage of the requests served within a certain time (ms)
+  50%     90
+  66%     93
+  75%     95
+  80%     96
+  90%    104
+  95%    112
+  98%    112
+  99%    112
+ 100%    112 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      2
+Time taken for tests:   0.772 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      975420 bytes
+HTML transferred:       967580 bytes
+Requests per second:    25.90 [#/sec] (mean)
+Time per request:       77.212 [ms] (mean)
+Time per request:       38.606 [ms] (mean, across all concurrent requests)
+Transfer rate:          1233.69 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   40   9.6     38      78
+Processing:    26   33  10.1     31      62
+Waiting:       15   21   9.7     17      50
+Total:         60   73  15.1     70     113
+
+Percentage of the requests served within a certain time (ms)
+  50%     70
+  66%     73
+  75%     74
+  80%     74
+  90%    107
+  95%    113
+  98%    113
+  99%    113
+ 100%    113 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      2
+Time taken for tests:   1.852 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4788613 bytes
+HTML transferred:       4753500 bytes
+Requests per second:    16.19 [#/sec] (mean)
+Time per request:       123.499 [ms] (mean)
+Time per request:       61.749 [ms] (mean, across all concurrent requests)
+Transfer rate:          2524.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   42   6.3     41      63
+Processing:    44   75  34.3     58     170
+Waiting:       16   42  32.2     28     137
+Total:         87  117  36.6    102     223
+
+Percentage of the requests served within a certain time (ms)
+  50%    102
+  66%    109
+  75%    144
+  80%    148
+  90%    184
+  95%    206
+  98%    223
+  99%    223
+ 100%    223 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      2
+Time taken for tests:   1.427 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6777902 bytes
+HTML transferred:       6749310 bytes
+Requests per second:    21.03 [#/sec] (mean)
+Time per request:       95.124 [ms] (mean)
+Time per request:       47.562 [ms] (mean, across all concurrent requests)
+Transfer rate:          4638.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   42   4.8     42      53
+Processing:    40   48   9.0     45      81
+Waiting:       11   15   7.4     13      44
+Total:         78   90   9.5     89     125
+
+Percentage of the requests served within a certain time (ms)
+  50%     89
+  66%     90
+  75%     91
+  80%     94
+  90%    102
+  95%    112
+  98%    125
+  99%    125
+ 100%    125 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      2
+Time taken for tests:   1.249 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1463130 bytes
+HTML transferred:       1451370 bytes
+Requests per second:    24.02 [#/sec] (mean)
+Time per request:       83.256 [ms] (mean)
+Time per request:       41.628 [ms] (mean, across all concurrent requests)
+Transfer rate:          1144.13 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   42   6.9     39      61
+Processing:    27   39  15.5     32      88
+Waiting:       15   26  15.5     18      76
+Total:         62   80  16.4     76     126
+
+Percentage of the requests served within a certain time (ms)
+  50%     76
+  66%     85
+  75%     91
+  80%     95
+  90%    101
+  95%    116
+  98%    126
+  99%    126
+ 100%    126 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.412 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1596199 bytes
+HTML transferred:       1584500 bytes
+Requests per second:    24.25 [#/sec] (mean)
+Time per request:       123.694 [ms] (mean)
+Time per request:       41.231 [ms] (mean, across all concurrent requests)
+Transfer rate:          3780.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   40   6.0     38      55
+Processing:    51   60  11.6     55      88
+Waiting:       17   26  11.7     23      57
+Total:         88  100  14.0     98     125
+
+Percentage of the requests served within a certain time (ms)
+  50%     98
+  66%     99
+  75%    103
+  80%    125
+  90%    125
+  95%    125
+  98%    125
+  99%    125
+ 100%    125 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.407 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259312 bytes
+HTML transferred:       2249770 bytes
+Requests per second:    24.59 [#/sec] (mean)
+Time per request:       121.993 [ms] (mean)
+Time per request:       40.664 [ms] (mean, across all concurrent requests)
+Transfer rate:          5425.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   42   5.6     43      51
+Processing:    42   68  12.3     69      90
+Waiting:       11   18   7.0     14      31
+Total:         79  110  14.1    109     137
+
+Percentage of the requests served within a certain time (ms)
+  50%    109
+  66%    111
+  75%    113
+  80%    117
+  90%    137
+  95%    137
+  98%    137
+  99%    137
+ 100%    137 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.326 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      487710 bytes
+HTML transferred:       483790 bytes
+Requests per second:    30.70 [#/sec] (mean)
+Time per request:       97.724 [ms] (mean)
+Time per request:       32.575 [ms] (mean, across all concurrent requests)
+Transfer rate:          1462.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   38   2.8     38      43
+Processing:    27   38  28.9     29     120
+Waiting:       15   17   1.9     17      22
+Total:         62   76  30.8     66     163
+
+Percentage of the requests served within a certain time (ms)
+  50%     66
+  66%     67
+  75%     70
+  80%     72
+  90%    163
+  95%    163
+  98%    163
+  99%    163
+ 100%    163 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.774 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3192400 bytes
+HTML transferred:       3169000 bytes
+Requests per second:    25.85 [#/sec] (mean)
+Time per request:       116.036 [ms] (mean)
+Time per request:       38.679 [ms] (mean, across all concurrent requests)
+Transfer rate:          4030.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   42   4.4     43      52
+Processing:    50   63  10.7     61      92
+Waiting:       18   26   9.8     23      52
+Total:         91  106  11.7    102     134
+
+Percentage of the requests served within a certain time (ms)
+  50%    102
+  66%    109
+  75%    113
+  80%    113
+  90%    132
+  95%    134
+  98%    134
+  99%    134
+ 100%    134 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.730 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4518619 bytes
+HTML transferred:       4499540 bytes
+Requests per second:    27.40 [#/sec] (mean)
+Time per request:       109.470 [ms] (mean)
+Time per request:       36.490 [ms] (mean, across all concurrent requests)
+Transfer rate:          6046.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   44   6.2     45      63
+Processing:    44   53   7.7     52      77
+Waiting:       12   15   2.8     14      23
+Total:         83   98   8.7     96     117
+
+Percentage of the requests served within a certain time (ms)
+  50%     96
+  66%     98
+  75%    103
+  80%    107
+  90%    114
+  95%    117
+  98%    117
+  99%    117
+ 100%    117 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.600 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      975420 bytes
+HTML transferred:       967580 bytes
+Requests per second:    33.31 [#/sec] (mean)
+Time per request:       90.066 [ms] (mean)
+Time per request:       30.022 [ms] (mean, across all concurrent requests)
+Transfer rate:          1586.44 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   41   6.1     40      56
+Processing:    26   41  22.8     36     107
+Waiting:       15   25  15.9     20      86
+Total:         61   82  25.5     74     158
+
+Percentage of the requests served within a certain time (ms)
+  50%     74
+  66%     80
+  75%     81
+  80%     85
+  90%    145
+  95%    158
+  98%    158
+  99%    158
+ 100%    158 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      3
+Time taken for tests:   1.139 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4788592 bytes
+HTML transferred:       4753500 bytes
+Requests per second:    26.33 [#/sec] (mean)
+Time per request:       113.935 [ms] (mean)
+Time per request:       37.978 [ms] (mean, across all concurrent requests)
+Transfer rate:          4104.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   42   9.0     40      77
+Processing:    48   64  15.5     59     112
+Waiting:       18   30  14.2     24      72
+Total:         87  107  19.6     99     161
+
+Percentage of the requests served within a certain time (ms)
+  50%     99
+  66%    106
+  75%    115
+  80%    128
+  90%    137
+  95%    153
+  98%    161
+  99%    161
+ 100%    161 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      3
+Time taken for tests:   1.053 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6777920 bytes
+HTML transferred:       6749310 bytes
+Requests per second:    28.48 [#/sec] (mean)
+Time per request:       105.347 [ms] (mean)
+Time per request:       35.116 [ms] (mean, across all concurrent requests)
+Transfer rate:          6283.11 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   43   4.8     43      52
+Processing:    42   54   7.3     54      67
+Waiting:       12   17   3.8     16      25
+Total:         86   98   7.4     96     116
+
+Percentage of the requests served within a certain time (ms)
+  50%     96
+  66%    100
+  75%    103
+  80%    105
+  90%    108
+  95%    109
+  98%    116
+  99%    116
+ 100%    116 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      3
+Time taken for tests:   0.837 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1463130 bytes
+HTML transferred:       1451370 bytes
+Requests per second:    35.83 [#/sec] (mean)
+Time per request:       83.721 [ms] (mean)
+Time per request:       27.907 [ms] (mean, across all concurrent requests)
+Transfer rate:          1706.67 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   41   7.0     39      65
+Processing:    26   33   7.0     31      62
+Waiting:       14   21   7.1     19      50
+Total:         61   74  10.5     71     104
+
+Percentage of the requests served within a certain time (ms)
+  50%     71
+  66%     74
+  75%     78
+  80%     82
+  90%     94
+  95%     96
+  98%    104
+  99%    104
+ 100%    104 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.504 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1596298 bytes
+HTML transferred:       1584500 bytes
+Requests per second:    19.85 [#/sec] (mean)
+Time per request:       201.550 [ms] (mean)
+Time per request:       50.388 [ms] (mean, across all concurrent requests)
+Transfer rate:          3093.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   39   4.5     40      48
+Processing:    50   88  52.8     65     220
+Waiting:       19   50  51.8     27     183
+Total:         94  127  55.0    105     268
+
+Percentage of the requests served within a certain time (ms)
+  50%    105
+  66%    105
+  75%    135
+  80%    172
+  90%    268
+  95%    268
+  98%    268
+  99%    268
+ 100%    268 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.351 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259303 bytes
+HTML transferred:       2249770 bytes
+Requests per second:    28.49 [#/sec] (mean)
+Time per request:       140.416 [ms] (mean)
+Time per request:       35.104 [ms] (mean, across all concurrent requests)
+Transfer rate:          6285.16 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       37   48   8.7     47      66
+Processing:    44   61  15.1     64      96
+Waiting:       12   16   4.5     15      27
+Total:         86  110  16.7    112     143
+
+Percentage of the requests served within a certain time (ms)
+  50%    112
+  66%    115
+  75%    118
+  80%    122
+  90%    143
+  95%    143
+  98%    143
+  99%    143
+ 100%    143 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.336 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      487710 bytes
+HTML transferred:       483790 bytes
+Requests per second:    29.80 [#/sec] (mean)
+Time per request:       134.213 [ms] (mean)
+Time per request:       33.553 [ms] (mean, across all concurrent requests)
+Transfer rate:          1419.47 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       38   49  10.1     51      70
+Processing:    28   39   9.4     39      55
+Waiting:       17   26   9.2     24      45
+Total:         71   89   9.2     89     103
+
+Percentage of the requests served within a certain time (ms)
+  50%     89
+  66%     91
+  75%     95
+  80%     98
+  90%    103
+  95%    103
+  98%    103
+  99%    103
+ 100%    103 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.610 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3192608 bytes
+HTML transferred:       3169000 bytes
+Requests per second:    32.79 [#/sec] (mean)
+Time per request:       121.974 [ms] (mean)
+Time per request:       30.493 [ms] (mean, across all concurrent requests)
+Transfer rate:          5112.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   43   8.5     41      63
+Processing:    53   65   8.6     62      83
+Waiting:       17   25   7.9     23      42
+Total:         93  108  14.2    105     142
+
+Percentage of the requests served within a certain time (ms)
+  50%    105
+  66%    107
+  75%    116
+  80%    117
+  90%    138
+  95%    142
+  98%    142
+  99%    142
+ 100%    142 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.673 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4518620 bytes
+HTML transferred:       4499540 bytes
+Requests per second:    29.73 [#/sec] (mean)
+Time per request:       134.525 [ms] (mean)
+Time per request:       33.631 [ms] (mean, across all concurrent requests)
+Transfer rate:          6560.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   52  14.2     48      83
+Processing:    48   69  15.7     70     117
+Waiting:       12   19   9.1     15      42
+Total:         84  121  22.4    111     179
+
+Percentage of the requests served within a certain time (ms)
+  50%    111
+  66%    123
+  75%    130
+  80%    134
+  90%    165
+  95%    179
+  98%    179
+  99%    179
+ 100%    179 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.632 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      975420 bytes
+HTML transferred:       967580 bytes
+Requests per second:    31.63 [#/sec] (mean)
+Time per request:       126.476 [ms] (mean)
+Time per request:       31.619 [ms] (mean, across all concurrent requests)
+Transfer rate:          1506.31 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   45  17.0     39     112
+Processing:    29   57  44.3     35     157
+Waiting:       16   45  44.3     24     144
+Total:         68  101  48.5     76     198
+
+Percentage of the requests served within a certain time (ms)
+  50%     76
+  66%     82
+  75%    149
+  80%    169
+  90%    196
+  95%    198
+  98%    198
+  99%    198
+ 100%    198 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.885 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4788536 bytes
+HTML transferred:       4753500 bytes
+Requests per second:    33.89 [#/sec] (mean)
+Time per request:       118.039 [ms] (mean)
+Time per request:       29.510 [ms] (mean, across all concurrent requests)
+Transfer rate:          5282.23 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   41   4.0     41      52
+Processing:    53   63   6.2     64      77
+Waiting:       16   23   4.8     22      34
+Total:         89  104   7.3    104     117
+
+Percentage of the requests served within a certain time (ms)
+  50%    104
+  66%    106
+  75%    108
+  80%    110
+  90%    115
+  95%    117
+  98%    117
+  99%    117
+ 100%    117 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.960 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6777933 bytes
+HTML transferred:       6749310 bytes
+Requests per second:    31.25 [#/sec] (mean)
+Time per request:       128.013 [ms] (mean)
+Time per request:       32.003 [ms] (mean, across all concurrent requests)
+Transfer rate:          6894.19 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   49  15.9     46     125
+Processing:    47   70  13.7     69     105
+Waiting:       11   17   6.8     14      37
+Total:         81  119  25.2    116     230
+
+Percentage of the requests served within a certain time (ms)
+  50%    116
+  66%    120
+  75%    124
+  80%    132
+  90%    138
+  95%    140
+  98%    230
+  99%    230
+ 100%    230 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      4
+Time taken for tests:   0.726 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1463130 bytes
+HTML transferred:       1451370 bytes
+Requests per second:    41.34 [#/sec] (mean)
+Time per request:       96.754 [ms] (mean)
+Time per request:       24.188 [ms] (mean, across all concurrent requests)
+Transfer rate:          1969.04 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       32   38   3.7     38      48
+Processing:    25   37  22.2     31     145
+Waiting:       14   25  21.6     18     131
+Total:         57   75  22.7     69     184
+
+Percentage of the requests served within a certain time (ms)
+  50%     69
+  66%     74
+  75%     76
+  80%     79
+  90%     90
+  95%    107
+  98%    184
+  99%    184
+ 100%    184 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.471 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1596218 bytes
+HTML transferred:       1584500 bytes
+Requests per second:    21.24 [#/sec] (mean)
+Time per request:       235.441 [ms] (mean)
+Time per request:       47.088 [ms] (mean, across all concurrent requests)
+Transfer rate:          3310.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   41   4.3     41      45
+Processing:    50   88  71.1     60     283
+Waiting:       16   54  71.4     24     250
+Total:         84  129  70.8    102     323
+
+Percentage of the requests served within a certain time (ms)
+  50%    102
+  66%    124
+  75%    129
+  80%    146
+  90%    323
+  95%    323
+  98%    323
+  99%    323
+ 100%    323 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.364 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259310 bytes
+HTML transferred:       2249770 bytes
+Requests per second:    27.48 [#/sec] (mean)
+Time per request:       181.943 [ms] (mean)
+Time per request:       36.389 [ms] (mean, across all concurrent requests)
+Transfer rate:          6063.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       43   57  12.5     56      78
+Processing:    56   79  17.3     82     113
+Waiting:       11   22   6.8     25      30
+Total:         99  136  23.4    142     170
+
+Percentage of the requests served within a certain time (ms)
+  50%    142
+  66%    142
+  75%    145
+  80%    163
+  90%    170
+  95%    170
+  98%    170
+  99%    170
+ 100%    170 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.222 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      487710 bytes
+HTML transferred:       483790 bytes
+Requests per second:    44.96 [#/sec] (mean)
+Time per request:       111.207 [ms] (mean)
+Time per request:       22.241 [ms] (mean, across all concurrent requests)
+Transfer rate:          2141.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       37   45   5.9     47      52
+Processing:    29   34   3.6     34      40
+Waiting:       15   19   3.4     18      27
+Total:         66   79   8.8     80      91
+
+Percentage of the requests served within a certain time (ms)
+  50%     80
+  66%     87
+  75%     87
+  80%     88
+  90%     91
+  95%     91
+  98%     91
+  99%     91
+ 100%     91 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.561 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3192456 bytes
+HTML transferred:       3169000 bytes
+Requests per second:    35.62 [#/sec] (mean)
+Time per request:       140.370 [ms] (mean)
+Time per request:       28.074 [ms] (mean, across all concurrent requests)
+Transfer rate:          5552.53 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       36   44   5.5     44      52
+Processing:    52   72  22.0     67     151
+Waiting:       16   28  20.0     25     107
+Total:         95  116  22.8    112     194
+
+Percentage of the requests served within a certain time (ms)
+  50%    112
+  66%    118
+  75%    123
+  80%    131
+  90%    143
+  95%    194
+  98%    194
+  99%    194
+ 100%    194 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.608 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4518608 bytes
+HTML transferred:       4499540 bytes
+Requests per second:    32.92 [#/sec] (mean)
+Time per request:       151.897 [ms] (mean)
+Time per request:       30.379 [ms] (mean, across all concurrent requests)
+Transfer rate:          7262.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       40   52   9.2     53      71
+Processing:    47   76  18.5     73     114
+Waiting:       11   19   8.1     15      40
+Total:         86  129  17.3    129     159
+
+Percentage of the requests served within a certain time (ms)
+  50%    129
+  66%    131
+  75%    135
+  80%    150
+  90%    159
+  95%    159
+  98%    159
+  99%    159
+ 100%    159 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.444 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      975420 bytes
+HTML transferred:       967580 bytes
+Requests per second:    45.00 [#/sec] (mean)
+Time per request:       111.101 [ms] (mean)
+Time per request:       22.220 [ms] (mean, across all concurrent requests)
+Transfer rate:          2143.46 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       35   42   4.2     42      50
+Processing:    30   47  26.1     32     111
+Waiting:       16   34  26.8     19      96
+Total:         68   89  25.6     77     150
+
+Percentage of the requests served within a certain time (ms)
+  50%     77
+  66%     82
+  75%    109
+  80%    111
+  90%    150
+  95%    150
+  98%    150
+  99%    150
+ 100%    150 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        158450 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.718 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4788682 bytes
+HTML transferred:       4753500 bytes
+Requests per second:    41.80 [#/sec] (mean)
+Time per request:       119.608 [ms] (mean)
+Time per request:       23.922 [ms] (mean, across all concurrent requests)
+Transfer rate:          6516.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   42   5.3     42      60
+Processing:    50   64  12.7     61      96
+Waiting:       16   27  12.1     22      62
+Total:         84  106  13.9    104     141
+
+Percentage of the requests served within a certain time (ms)
+  50%    104
+  66%    109
+  75%    114
+  80%    115
+  90%    129
+  95%    135
+  98%    141
+  99%    141
+ 100%    141 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        224977 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.869 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6777945 bytes
+HTML transferred:       6749310 bytes
+Requests per second:    34.54 [#/sec] (mean)
+Time per request:       144.766 [ms] (mean)
+Time per request:       28.953 [ms] (mean, across all concurrent requests)
+Transfer rate:          7620.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       39   52   8.8     52      78
+Processing:    49   77  14.7     77     113
+Waiting:       12   20   8.2     16      42
+Total:        101  129  13.6    128     154
+
+Percentage of the requests served within a certain time (ms)
+  50%    128
+  66%    131
+  75%    140
+  80%    145
+  90%    150
+  95%    152
+  98%    154
+  99%    154
+ 100%    154 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48379 bytes
+
+Concurrency Level:      5
+Time taken for tests:   0.484 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1463130 bytes
+HTML transferred:       1451370 bytes
+Requests per second:    61.93 [#/sec] (mean)
+Time per request:       80.732 [ms] (mean)
+Time per request:       16.146 [ms] (mean, across all concurrent requests)
+Transfer rate:          2949.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   39   4.6     38      52
+Processing:    27   31   4.2     29      43
+Waiting:       15   19   3.9     17      31
+Total:         62   69   6.6     67      87
+
+Percentage of the requests served within a certain time (ms)
+  50%     67
+  66%     71
+  75%     72
+  80%     72
+  90%     83
+  95%     84
+  98%     87
+  99%     87
+ 100%     87 (longest request)
+
+
+--------------------------------------TEST FROM PONTE CAFFARO WITH 4G WIND TRE--------------------------------------------------
+
+
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.812 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      6447392 bytes
+HTML transferred:       6400560 bytes
+Requests per second:    14.23 [#/sec] (mean)
+Time per request:       702.933 [ms] (mean)
+Time per request:       70.293 [ms] (mean, across all concurrent requests)
+Transfer rate:          2239.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      162  203  41.6    194     421
+Processing:   222  346  61.4    346     466
+Waiting:       57   86  26.0     78     180
+Total:        436  548  68.1    549     695
+
+Percentage of the requests served within a certain time (ms)
+  50%    549
+  66%    572
+  75%    613
+  80%    616
+  90%    658
+  95%    667
+  98%    695
+  99%    695
+ 100%    695 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.460 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      7960343 bytes
+HTML transferred:       7922240 bytes
+Requests per second:    11.56 [#/sec] (mean)
+Time per request:       865.092 [ms] (mean)
+Time per request:       86.509 [ms] (mean, across all concurrent requests)
+Transfer rate:          2246.52 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      161  248  98.3    214     577
+Processing:   213  500 286.3    353    1084
+Waiting:       52  100  57.7     77     290
+Total:        423  748 274.5    705    1318
+
+Percentage of the requests served within a certain time (ms)
+  50%    705
+  66%    815
+  75%    840
+  80%    996
+  90%   1255
+  95%   1286
+  98%   1318
+  99%   1318
+ 100%   1318 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.148 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      1945200 bytes
+HTML transferred:       1929520 bytes
+Requests per second:    12.71 [#/sec] (mean)
+Time per request:       786.936 [ms] (mean)
+Time per request:       78.694 [ms] (mean, across all concurrent requests)
+Transfer rate:          603.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      187  231  81.3    206     684
+Processing:   146  298 199.6    204     939
+Waiting:       71  158 143.0    110     858
+Total:        348  529 205.6    430    1143
+
+Percentage of the requests served within a certain time (ms)
+  50%    430
+  66%    465
+  75%    717
+  80%    767
+  90%    861
+  95%    917
+  98%   1143
+  99%   1143
+ 100%   1143 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.962 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      8059399 bytes
+HTML transferred:       8000700 bytes
+Requests per second:    16.88 [#/sec] (mean)
+Time per request:       592.385 [ms] (mean)
+Time per request:       59.238 [ms] (mean, across all concurrent requests)
+Transfer rate:          2657.23 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      148  199  24.0    195     280
+Processing:   243  327  54.7    302     514
+Waiting:       57   84  37.3     76     310
+Total:        420  526  60.1    520     755
+
+Percentage of the requests served within a certain time (ms)
+  50%    520
+  66%    554
+  75%    572
+  80%    576
+  90%    603
+  95%    610
+  98%    755
+  99%    755
+ 100%    755 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.231 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      9950436 bytes
+HTML transferred:       9902800 bytes
+Requests per second:    15.47 [#/sec] (mean)
+Time per request:       646.251 [ms] (mean)
+Time per request:       64.625 [ms] (mean, across all concurrent requests)
+Transfer rate:          3007.26 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      165  256  62.7    236     486
+Processing:   194  311 122.8    253     633
+Waiting:       53   77  17.4     76     148
+Total:        410  568 164.9    510     979
+
+Percentage of the requests served within a certain time (ms)
+  50%    510
+  66%    534
+  75%    568
+  80%    714
+  90%    854
+  95%    968
+  98%    979
+  99%    979
+ 100%    979 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.034 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      2431500 bytes
+HTML transferred:       2411900 bytes
+Requests per second:    16.48 [#/sec] (mean)
+Time per request:       606.847 [ms] (mean)
+Time per request:       60.685 [ms] (mean, across all concurrent requests)
+Transfer rate:          782.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      181  273 100.0    237     562
+Processing:   155  249  94.9    208     589
+Waiting:       72  124  55.9     96     261
+Total:        357  522 153.5    452     858
+
+Percentage of the requests served within a certain time (ms)
+  50%    452
+  66%    501
+  75%    596
+  80%    692
+  90%    809
+  95%    817
+  98%    858
+  99%    858
+ 100%    858 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      10
+Time taken for tests:   7.605 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      9671164 bytes
+HTML transferred:       9600840 bytes
+Requests per second:    7.89 [#/sec] (mean)
+Time per request:       1267.474 [ms] (mean)
+Time per request:       126.747 [ms] (mean, across all concurrent requests)
+Transfer rate:          1241.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      179  455 292.2    393    1172
+Processing:   246  731 296.6    707    1428
+Waiting:       55  132 105.8     95     602
+Total:        425 1186 373.8   1243    1883
+
+Percentage of the requests served within a certain time (ms)
+  50%   1243
+  66%   1369
+  75%   1532
+  80%   1562
+  90%   1646
+  95%   1712
+  98%   1868
+  99%   1883
+ 100%   1883 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.774 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      11940517 bytes
+HTML transferred:       11883360 bytes
+Requests per second:    12.57 [#/sec] (mean)
+Time per request:       795.717 [ms] (mean)
+Time per request:       79.572 [ms] (mean, across all concurrent requests)
+Transfer rate:          2442.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      180  265  74.0    239     568
+Processing:   196  457 204.9    375     829
+Waiting:       54   90  57.5     73     464
+Total:        418  722 241.8    641    1202
+
+Percentage of the requests served within a certain time (ms)
+  50%    641
+  66%    794
+  75%    998
+  80%   1034
+  90%   1062
+  95%   1117
+  98%   1118
+  99%   1202
+ 100%   1202 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.273 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      2917800 bytes
+HTML transferred:       2894280 bytes
+Requests per second:    18.33 [#/sec] (mean)
+Time per request:       545.560 [ms] (mean)
+Time per request:       54.556 [ms] (mean, across all concurrent requests)
+Transfer rate:          870.49 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      171  227  49.0    217     430
+Processing:   147  223 114.3    184     607
+Waiting:       66  123  91.3     89     451
+Total:        322  450 144.0    395     941
+
+Percentage of the requests served within a certain time (ms)
+  50%    395
+  66%    424
+  75%    441
+  80%    450
+  90%    709
+  95%    856
+  98%    862
+  99%    941
+ 100%    941 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      15
+Time taken for tests:   2.712 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      6447416 bytes
+HTML transferred:       6400560 bytes
+Requests per second:    14.75 [#/sec] (mean)
+Time per request:       1017.029 [ms] (mean)
+Time per request:       67.802 [ms] (mean, across all concurrent requests)
+Transfer rate:          2321.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      172  266  89.8    246     672
+Processing:   278  544 243.4    497    1020
+Waiting:       67  109  39.1     86     209
+Total:        449  810 253.0    818    1242
+
+Percentage of the requests served within a certain time (ms)
+  50%    818
+  66%    949
+  75%   1046
+  80%   1080
+  90%   1139
+  95%   1168
+  98%   1242
+  99%   1242
+ 100%   1242 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      15
+Time taken for tests:   5.261 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      7960693 bytes
+HTML transferred:       7922240 bytes
+Requests per second:    7.60 [#/sec] (mean)
+Time per request:       1972.707 [ms] (mean)
+Time per request:       131.514 [ms] (mean, across all concurrent requests)
+Transfer rate:          1477.81 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      175  436 344.5    326    1478
+Processing:   386 1105 735.1    723    2743
+Waiting:       52  113  90.6     85     507
+Total:        561 1540 855.9   1061    3362
+
+Percentage of the requests served within a certain time (ms)
+  50%   1061
+  66%   1992
+  75%   2541
+  80%   2580
+  90%   2746
+  95%   2778
+  98%   3362
+  99%   3362
+ 100%   3362 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      15
+Time taken for tests:   2.177 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      1945200 bytes
+HTML transferred:       1929520 bytes
+Requests per second:    18.37 [#/sec] (mean)
+Time per request:       816.331 [ms] (mean)
+Time per request:       54.422 [ms] (mean, across all concurrent requests)
+Transfer rate:          872.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      187  311  90.6    256     567
+Processing:   147  346 125.2    332     519
+Waiting:       71  162  65.0    150     278
+Total:        352  657 200.4    579     944
+
+Percentage of the requests served within a certain time (ms)
+  50%    579
+  66%    871
+  75%    883
+  80%    902
+  90%    930
+  95%    934
+  98%    944
+  99%    944
+ 100%    944 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      15
+Time taken for tests:   2.955 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      8059306 bytes
+HTML transferred:       8000700 bytes
+Requests per second:    16.92 [#/sec] (mean)
+Time per request:       886.643 [ms] (mean)
+Time per request:       59.110 [ms] (mean, across all concurrent requests)
+Transfer rate:          2662.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      162  230  80.4    196     483
+Processing:   258  449  87.7    474     594
+Waiting:       50   90  39.6     79     241
+Total:        420  678 100.5    708     861
+
+Percentage of the requests served within a certain time (ms)
+  50%    708
+  66%    721
+  75%    729
+  80%    736
+  90%    798
+  95%    821
+  98%    861
+  99%    861
+ 100%    861 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      15
+Time taken for tests:   3.756 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      9950860 bytes
+HTML transferred:       9902800 bytes
+Requests per second:    13.31 [#/sec] (mean)
+Time per request:       1126.693 [ms] (mean)
+Time per request:       75.113 [ms] (mean, across all concurrent requests)
+Transfer rate:          2587.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      154  253 117.8    203     878
+Processing:   202  713 445.3    505    1571
+Waiting:       51  101  65.0     78     440
+Total:        356  967 426.8    748    1769
+
+Percentage of the requests served within a certain time (ms)
+  50%    748
+  66%    819
+  75%   1584
+  80%   1628
+  90%   1637
+  95%   1652
+  98%   1769
+  99%   1769
+ 100%   1769 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      15
+Time taken for tests:   2.179 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      2431500 bytes
+HTML transferred:       2411900 bytes
+Requests per second:    22.95 [#/sec] (mean)
+Time per request:       653.565 [ms] (mean)
+Time per request:       43.571 [ms] (mean, across all concurrent requests)
+Transfer rate:          1089.95 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      184  216  14.6    214     258
+Processing:   138  201  50.6    198     395
+Waiting:       69  102  24.7    105     182
+Total:        341  417  56.9    409     620
+
+Percentage of the requests served within a certain time (ms)
+  50%    409
+  66%    414
+  75%    429
+  80%    432
+  90%    488
+  95%    567
+  98%    620
+  99%    620
+ 100%    620 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      15
+Time taken for tests:   3.229 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      9671132 bytes
+HTML transferred:       9600840 bytes
+Requests per second:    18.58 [#/sec] (mean)
+Time per request:       807.329 [ms] (mean)
+Time per request:       53.822 [ms] (mean, across all concurrent requests)
+Transfer rate:          2924.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      150  231  80.2    200     434
+Processing:   242  464  77.9    457     715
+Waiting:       57   93  39.0     86     323
+Total:        415  695 125.7    662     991
+
+Percentage of the requests served within a certain time (ms)
+  50%    662
+  66%    704
+  75%    761
+  80%    802
+  90%    924
+  95%    968
+  98%    986
+  99%    991
+ 100%    991 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      15
+Time taken for tests:   3.337 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      11941042 bytes
+HTML transferred:       11883360 bytes
+Requests per second:    17.98 [#/sec] (mean)
+Time per request:       834.169 [ms] (mean)
+Time per request:       55.611 [ms] (mean, across all concurrent requests)
+Transfer rate:          3494.85 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      167  289  96.3    258     579
+Processing:   202  429 183.6    396     914
+Waiting:       52   88  60.5     68     377
+Total:        434  719 204.0    684    1132
+
+Percentage of the requests served within a certain time (ms)
+  50%    684
+  66%    874
+  75%    910
+  80%    932
+  90%    990
+  95%   1004
+  98%   1079
+  99%   1132
+ 100%   1132 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      15
+Time taken for tests:   2.935 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      2917800 bytes
+HTML transferred:       2894280 bytes
+Requests per second:    20.45 [#/sec] (mean)
+Time per request:       733.641 [ms] (mean)
+Time per request:       48.909 [ms] (mean, across all concurrent requests)
+Transfer rate:          970.98 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      192  314  99.5    279     502
+Processing:   142  309 135.0    254     655
+Waiting:       73  135  73.0    112     475
+Total:        367  623 121.0    616     873
+
+Percentage of the requests served within a certain time (ms)
+  50%    616
+  66%    679
+  75%    742
+  80%    762
+  90%    796
+  95%    816
+  98%    839
+  99%    873
+ 100%    873 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      20
+Time taken for tests:   2.128 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      6447420 bytes
+HTML transferred:       6400560 bytes
+Requests per second:    18.80 [#/sec] (mean)
+Time per request:       1063.788 [ms] (mean)
+Time per request:       53.189 [ms] (mean, across all concurrent requests)
+Transfer rate:          2959.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      171  253  66.2    229     406
+Processing:   238  624 175.7    649     921
+Waiting:       56  108  39.5     96     194
+Total:        409  877 151.9    854    1116
+
+Percentage of the requests served within a certain time (ms)
+  50%    854
+  66%    961
+  75%   1006
+  80%   1051
+  90%   1071
+  95%   1106
+  98%   1116
+  99%   1116
+ 100%   1116 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      20
+Time taken for tests:   2.762 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      7960708 bytes
+HTML transferred:       7922240 bytes
+Requests per second:    14.48 [#/sec] (mean)
+Time per request:       1381.058 [ms] (mean)
+Time per request:       69.053 [ms] (mean, across all concurrent requests)
+Transfer rate:          2814.56 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      192  341 161.3    314     677
+Processing:   219  827 196.2    909    1071
+Waiting:       50   90  45.4     73     295
+Total:        411 1168 327.3   1256    1687
+
+Percentage of the requests served within a certain time (ms)
+  50%   1256
+  66%   1429
+  75%   1453
+  80%   1461
+  90%   1521
+  95%   1657
+  98%   1687
+  99%   1687
+ 100%   1687 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      20
+Time taken for tests:   1.143 seconds
+Complete requests:      40
+Failed requests:        0
+Total transferred:      1945200 bytes
+HTML transferred:       1929520 bytes
+Requests per second:    34.98 [#/sec] (mean)
+Time per request:       571.701 [ms] (mean)
+Time per request:       28.585 [ms] (mean, across all concurrent requests)
+Transfer rate:          1661.37 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      194  224  16.4    222     248
+Processing:   148  179  44.2    168     439
+Waiting:       69   84   9.0     84     114
+Total:        352  403  47.2    396     656
+
+Percentage of the requests served within a certain time (ms)
+  50%    396
+  66%    405
+  75%    424
+  80%    425
+  90%    426
+  95%    449
+  98%    656
+  99%    656
+ 100%    656 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      20
+Time taken for tests:   2.411 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      8059246 bytes
+HTML transferred:       8000700 bytes
+Requests per second:    20.74 [#/sec] (mean)
+Time per request:       964.280 [ms] (mean)
+Time per request:       48.214 [ms] (mean, across all concurrent requests)
+Transfer rate:          3264.76 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      172  238  43.5    235     346
+Processing:   255  468  95.1    465     659
+Waiting:       59   92  38.4     83     262
+Total:        486  706  96.5    684     925
+
+Percentage of the requests served within a certain time (ms)
+  50%    684
+  66%    766
+  75%    782
+  80%    819
+  90%    832
+  95%    845
+  98%    925
+  99%    925
+ 100%    925 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      20
+Time taken for tests:   2.607 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      9950450 bytes
+HTML transferred:       9902800 bytes
+Requests per second:    19.18 [#/sec] (mean)
+Time per request:       1042.693 [ms] (mean)
+Time per request:       52.135 [ms] (mean, across all concurrent requests)
+Transfer rate:          3727.75 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      163  237  61.0    215     523
+Processing:   227  537 124.1    580     711
+Waiting:       57   99  51.3     77     276
+Total:        390  773 124.9    793     947
+
+Percentage of the requests served within a certain time (ms)
+  50%    793
+  66%    823
+  75%    887
+  80%    896
+  90%    923
+  95%    943
+  98%    947
+  99%    947
+ 100%    947 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      20
+Time taken for tests:   1.921 seconds
+Complete requests:      50
+Failed requests:        0
+Total transferred:      2431500 bytes
+HTML transferred:       2411900 bytes
+Requests per second:    26.03 [#/sec] (mean)
+Time per request:       768.312 [ms] (mean)
+Time per request:       38.416 [ms] (mean, across all concurrent requests)
+Transfer rate:          1236.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      182  256  46.8    237     377
+Processing:   163  254  60.7    257     408
+Waiting:       76  138  47.4    132     239
+Total:        351  510 100.5    503     743
+
+Percentage of the requests served within a certain time (ms)
+  50%    503
+  66%    535
+  75%    555
+  80%    579
+  90%    669
+  95%    725
+  98%    743
+  99%    743
+ 100%    743 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      20
+Time taken for tests:   3.127 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      9671068 bytes
+HTML transferred:       9600840 bytes
+Requests per second:    19.19 [#/sec] (mean)
+Time per request:       1042.379 [ms] (mean)
+Time per request:       52.119 [ms] (mean, across all concurrent requests)
+Transfer rate:          3020.14 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      166  277  78.3    243     549
+Processing:   309  637 115.2    651     860
+Waiting:       57  120  50.6    110     271
+Total:        475  914 145.1    902    1172
+
+Percentage of the requests served within a certain time (ms)
+  50%    902
+  66%    992
+  75%   1044
+  80%   1061
+  90%   1100
+  95%   1109
+  98%   1138
+  99%   1172
+ 100%   1172 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      20
+Time taken for tests:   2.985 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      11940516 bytes
+HTML transferred:       11883360 bytes
+Requests per second:    20.10 [#/sec] (mean)
+Time per request:       994.967 [ms] (mean)
+Time per request:       49.748 [ms] (mean, across all concurrent requests)
+Transfer rate:          3906.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      193  256  56.6    231     445
+Processing:   245  559 167.4    521     843
+Waiting:       59  104  43.6     84     259
+Total:        533  816 144.4    787    1046
+
+Percentage of the requests served within a certain time (ms)
+  50%    787
+  66%    821
+  75%   1035
+  80%   1037
+  90%   1038
+  95%   1038
+  98%   1039
+  99%   1046
+ 100%   1046 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      20
+Time taken for tests:   1.847 seconds
+Complete requests:      60
+Failed requests:        0
+Total transferred:      2917800 bytes
+HTML transferred:       2894280 bytes
+Requests per second:    32.48 [#/sec] (mean)
+Time per request:       615.756 [ms] (mean)
+Time per request:       30.788 [ms] (mean, across all concurrent requests)
+Transfer rate:          1542.50 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      196  228  19.3    223     279
+Processing:   143  243  58.7    237     365
+Waiting:       67  112  49.0     93     262
+Total:        362  471  60.6    480     606
+
+Percentage of the requests served within a certain time (ms)
+  50%    480
+  66%    485
+  75%    511
+  80%    533
+  90%    555
+  95%    585
+  98%    593
+  99%    606
+ 100%    606 (longest request)
+
+
+--------------------------------------TEST FROM PONTE CAFFARO WITH 4G WIND TRE--------------------------------------------------
+
+
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.966 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1611860 bytes
+HTML transferred:       1600140 bytes
+Requests per second:    2.01 [#/sec] (mean)
+Time per request:       496.626 [ms] (mean)
+Time per request:       496.626 [ms] (mean, across all concurrent requests)
+Transfer rate:          316.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      160  177  22.4    170     236
+Processing:   208  319 213.4    248     914
+Waiting:       56   98  88.7     69     348
+Total:        369  496 233.5    421    1150
+
+Percentage of the requests served within a certain time (ms)
+  50%    421
+  66%    421
+  75%    431
+  80%    529
+  90%   1150
+  95%   1150
+  98%   1150
+  99%   1150
+ 100%   1150 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      1
+Time taken for tests:   6.254 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1990183 bytes
+HTML transferred:       1980560 bytes
+Requests per second:    1.60 [#/sec] (mean)
+Time per request:       625.356 [ms] (mean)
+Time per request:       625.356 [ms] (mean, across all concurrent requests)
+Transfer rate:          310.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      163  208  75.7    176     386
+Processing:   184  417 451.5    284    1672
+Waiting:       45   67  14.4     69      98
+Total:        354  625 449.4    458    1839
+
+Percentage of the requests served within a certain time (ms)
+  50%    458
+  66%    583
+  75%    671
+  80%    770
+  90%   1839
+  95%   1839
+  98%   1839
+  99%   1839
+ 100%   1839 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.224 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      486300 bytes
+HTML transferred:       482380 bytes
+Requests per second:    2.37 [#/sec] (mean)
+Time per request:       422.429 [ms] (mean)
+Time per request:       422.429 [ms] (mean, across all concurrent requests)
+Transfer rate:          112.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      173  198  26.2    191     266
+Processing:   151  224 185.9    166     752
+Waiting:       66  132 179.9     81     644
+Total:        335  422 178.7    373     925
+
+Percentage of the requests served within a certain time (ms)
+  50%    373
+  66%    376
+  75%    379
+  80%    428
+  90%    925
+  95%    925
+  98%    925
+  99%    925
+ 100%    925 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.687 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3223830 bytes
+HTML transferred:       3200280 bytes
+Requests per second:    2.30 [#/sec] (mean)
+Time per request:       434.358 [ms] (mean)
+Time per request:       434.358 [ms] (mean, across all concurrent requests)
+Transfer rate:          362.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      150  172  11.4    174     191
+Processing:   224  262  25.9    262     338
+Waiting:       62   83  17.4     76     131
+Total:        392  434  27.5    433     511
+
+Percentage of the requests served within a certain time (ms)
+  50%    433
+  66%    442
+  75%    454
+  80%    456
+  90%    462
+  95%    511
+  98%    511
+  99%    511
+ 100%    511 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.887 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3980376 bytes
+HTML transferred:       3961120 bytes
+Requests per second:    2.54 [#/sec] (mean)
+Time per request:       394.358 [ms] (mean)
+Time per request:       394.358 [ms] (mean, across all concurrent requests)
+Transfer rate:          492.84 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      159  181  33.6    174     314
+Processing:   164  213  48.8    192     363
+Waiting:       51   63  11.5     59      97
+Total:        335  394  75.5    366     677
+
+Percentage of the requests served within a certain time (ms)
+  50%    366
+  66%    392
+  75%    399
+  80%    435
+  90%    476
+  95%    677
+  98%    677
+  99%    677
+ 100%    677 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.564 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      972600 bytes
+HTML transferred:       964760 bytes
+Requests per second:    2.64 [#/sec] (mean)
+Time per request:       378.220 [ms] (mean)
+Time per request:       378.220 [ms] (mean, across all concurrent requests)
+Transfer rate:          125.56 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      173  205  33.0    199     326
+Processing:   151  173  27.1    165     278
+Waiting:       70   84  22.8     76     173
+Total:        323  378  43.7    370     491
+
+Percentage of the requests served within a certain time (ms)
+  50%    370
+  66%    378
+  75%    396
+  80%    400
+  90%    488
+  95%    491
+  98%    491
+  99%    491
+ 100%    491 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.681 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4835610 bytes
+HTML transferred:       4800420 bytes
+Requests per second:    2.19 [#/sec] (mean)
+Time per request:       456.032 [ms] (mean)
+Time per request:       456.032 [ms] (mean, across all concurrent requests)
+Transfer rate:          345.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      154  180  30.8    177     283
+Processing:   214  275  83.7    253     659
+Waiting:       57   78  25.1     71     165
+Total:        371  456 105.3    426     942
+
+Percentage of the requests served within a certain time (ms)
+  50%    426
+  66%    440
+  75%    484
+  80%    504
+  90%    535
+  95%    559
+  98%    942
+  99%    942
+ 100%    942 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        198056 bytes
+
+Concurrency Level:      1
+Time taken for tests:   12.689 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      5970550 bytes
+HTML transferred:       5941680 bytes
+Requests per second:    2.36 [#/sec] (mean)
+Time per request:       422.973 [ms] (mean)
+Time per request:       422.973 [ms] (mean, across all concurrent requests)
+Transfer rate:          459.49 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      152  188  48.7    173     366
+Processing:   176  234  64.1    203     437
+Waiting:       51   64  26.7     58     201
+Total:        343  423  87.5    393     764
+
+Percentage of the requests served within a certain time (ms)
+  50%    393
+  66%    411
+  75%    440
+  80%    472
+  90%    561
+  95%    579
+  98%    764
+  99%    764
+ 100%    764 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      1
+Time taken for tests:   11.487 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1458900 bytes
+HTML transferred:       1447140 bytes
+Requests per second:    2.61 [#/sec] (mean)
+Time per request:       382.890 [ms] (mean)
+Time per request:       382.890 [ms] (mean, across all concurrent requests)
+Transfer rate:          124.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      179  213  46.8    197     390
+Processing:   142  170  19.5    163     228
+Waiting:       66   78   8.6     77      95
+Total:        330  382  55.1    371     584
+
+Percentage of the requests served within a certain time (ms)
+  50%    371
+  66%    373
+  75%    392
+  80%    407
+  90%    437
+  95%    542
+  98%    584
+  99%    584
+ 100%    584 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      2
+Time taken for tests:   2.673 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1611870 bytes
+HTML transferred:       1600140 bytes
+Requests per second:    3.74 [#/sec] (mean)
+Time per request:       534.577 [ms] (mean)
+Time per request:       267.288 [ms] (mean, across all concurrent requests)
+Transfer rate:          588.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      163  197  43.1    189     312
+Processing:   224  278  64.2    247     387
+Waiting:       57   81  20.0     81     116
+Total:        395  474  98.4    438     699
+
+Percentage of the requests served within a certain time (ms)
+  50%    438
+  66%    454
+  75%    538
+  80%    570
+  90%    699
+  95%    699
+  98%    699
+  99%    699
+ 100%    699 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      2
+Time taken for tests:   3.422 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259824 bytes
+HTML transferred:       2250230 bytes
+Requests per second:    2.92 [#/sec] (mean)
+Time per request:       684.411 [ms] (mean)
+Time per request:       342.205 [ms] (mean, across all concurrent requests)
+Transfer rate:          644.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      181  260  83.9    263     379
+Processing:   199  350 191.3    278     808
+Waiting:       54  117 102.4     71     361
+Total:        402  611 169.7    619     997
+
+Percentage of the requests served within a certain time (ms)
+  50%    619
+  66%    620
+  75%    676
+  80%    746
+  90%    997
+  95%    997
+  98%    997
+  99%    997
+ 100%    997 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      2
+Time taken for tests:   2.261 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      486300 bytes
+HTML transferred:       482380 bytes
+Requests per second:    4.42 [#/sec] (mean)
+Time per request:       452.252 [ms] (mean)
+Time per request:       226.126 [ms] (mean, across all concurrent requests)
+Transfer rate:          210.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      184  203  11.4    204     219
+Processing:   140  176  40.4    173     281
+Waiting:       65   88  38.3     79     196
+Total:        339  379  32.7    377     465
+
+Percentage of the requests served within a certain time (ms)
+  50%    377
+  66%    379
+  75%    381
+  80%    382
+  90%    465
+  95%    465
+  98%    465
+  99%    465
+ 100%    465 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      2
+Time taken for tests:   4.867 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3223740 bytes
+HTML transferred:       3200280 bytes
+Requests per second:    4.11 [#/sec] (mean)
+Time per request:       486.742 [ms] (mean)
+Time per request:       243.371 [ms] (mean, across all concurrent requests)
+Transfer rate:          646.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      152  187  27.6    183     277
+Processing:   217  267  34.0    264     365
+Waiting:       56   82  19.8     79     144
+Total:        398  454  44.9    443     573
+
+Percentage of the requests served within a certain time (ms)
+  50%    443
+  66%    454
+  75%    475
+  80%    500
+  90%    541
+  95%    573
+  98%    573
+  99%    573
+ 100%    573 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      2
+Time taken for tests:   4.505 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4519467 bytes
+HTML transferred:       4500460 bytes
+Requests per second:    4.44 [#/sec] (mean)
+Time per request:       450.493 [ms] (mean)
+Time per request:       225.246 [ms] (mean, across all concurrent requests)
+Transfer rate:          979.71 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      158  198  29.4    200     294
+Processing:   186  225  42.9    207     354
+Waiting:       49   69  27.8     63     167
+Total:        375  424  52.8    404     581
+
+Percentage of the requests served within a certain time (ms)
+  50%    404
+  66%    421
+  75%    435
+  80%    451
+  90%    538
+  95%    581
+  98%    581
+  99%    581
+ 100%    581 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      2
+Time taken for tests:   4.273 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      972600 bytes
+HTML transferred:       964760 bytes
+Requests per second:    4.68 [#/sec] (mean)
+Time per request:       427.330 [ms] (mean)
+Time per request:       213.665 [ms] (mean, across all concurrent requests)
+Transfer rate:          222.26 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      187  231  54.3    210     372
+Processing:   150  173  25.4    169     270
+Waiting:       65   86  26.8     81     194
+Total:        346  404  68.4    378     559
+
+Percentage of the requests served within a certain time (ms)
+  50%    378
+  66%    395
+  75%    401
+  80%    480
+  90%    557
+  95%    559
+  98%    559
+  99%    559
+ 100%    559 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      2
+Time taken for tests:   8.178 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4835610 bytes
+HTML transferred:       4800420 bytes
+Requests per second:    3.67 [#/sec] (mean)
+Time per request:       545.223 [ms] (mean)
+Time per request:       272.612 [ms] (mean, across all concurrent requests)
+Transfer rate:          577.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      151  227 120.9    185     715
+Processing:   227  295  93.4    255     659
+Waiting:       60   96  43.1     83     247
+Total:        387  521 194.2    455    1200
+
+Percentage of the requests served within a certain time (ms)
+  50%    455
+  66%    474
+  75%    497
+  80%    584
+  90%    793
+  95%   1133
+  98%   1200
+  99%   1200
+ 100%   1200 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      2
+Time taken for tests:   6.957 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6779216 bytes
+HTML transferred:       6750690 bytes
+Requests per second:    4.31 [#/sec] (mean)
+Time per request:       463.820 [ms] (mean)
+Time per request:       231.910 [ms] (mean, across all concurrent requests)
+Transfer rate:          951.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      164  202  56.0    188     422
+Processing:   180  254 103.7    226     665
+Waiting:       50   71  27.7     61     165
+Total:        364  455 134.5    419     984
+
+Percentage of the requests served within a certain time (ms)
+  50%    419
+  66%    446
+  75%    455
+  80%    472
+  90%    577
+  95%    849
+  98%    984
+  99%    984
+ 100%    984 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      2
+Time taken for tests:   5.945 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1458900 bytes
+HTML transferred:       1447140 bytes
+Requests per second:    5.05 [#/sec] (mean)
+Time per request:       396.313 [ms] (mean)
+Time per request:       198.156 [ms] (mean, across all concurrent requests)
+Transfer rate:          239.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      181  206  19.0    205     270
+Processing:   144  170  19.9    164     225
+Waiting:       69   81  14.3     78     132
+Total:        330  376  36.1    368     494
+
+Percentage of the requests served within a certain time (ms)
+  50%    368
+  66%    373
+  75%    383
+  80%    388
+  90%    452
+  95%    467
+  98%    494
+  99%    494
+ 100%    494 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      3
+Time taken for tests:   1.955 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1611870 bytes
+HTML transferred:       1600140 bytes
+Requests per second:    5.12 [#/sec] (mean)
+Time per request:       586.360 [ms] (mean)
+Time per request:       195.453 [ms] (mean, across all concurrent requests)
+Transfer rate:          805.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      166  183  18.0    174     218
+Processing:   225  295 106.0    263     592
+Waiting:       59  105 100.6     73     389
+Total:        390  478 102.4    455     759
+
+Percentage of the requests served within a certain time (ms)
+  50%    455
+  66%    464
+  75%    477
+  80%    479
+  90%    759
+  95%    759
+  98%    759
+  99%    759
+ 100%    759 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      3
+Time taken for tests:   1.654 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259749 bytes
+HTML transferred:       2250230 bytes
+Requests per second:    6.04 [#/sec] (mean)
+Time per request:       496.328 [ms] (mean)
+Time per request:       165.443 [ms] (mean, across all concurrent requests)
+Transfer rate:          1333.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      169  192  19.4    188     231
+Processing:   194  219  20.2    223     261
+Waiting:       56   65  10.1     62      83
+Total:        381  411  27.7    408     454
+
+Percentage of the requests served within a certain time (ms)
+  50%    408
+  66%    424
+  75%    437
+  80%    447
+  90%    454
+  95%    454
+  98%    454
+  99%    454
+ 100%    454 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      3
+Time taken for tests:   1.497 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      486300 bytes
+HTML transferred:       482380 bytes
+Requests per second:    6.68 [#/sec] (mean)
+Time per request:       449.228 [ms] (mean)
+Time per request:       149.743 [ms] (mean, across all concurrent requests)
+Transfer rate:          317.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      184  206  13.6    212     224
+Processing:   155  170  12.4    169     200
+Waiting:       73   81   4.0     81      86
+Total:        350  376  17.5    379     401
+
+Percentage of the requests served within a certain time (ms)
+  50%    379
+  66%    386
+  75%    391
+  80%    391
+  90%    401
+  95%    401
+  98%    401
+  99%    401
+ 100%    401 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      3
+Time taken for tests:   3.705 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3223736 bytes
+HTML transferred:       3200280 bytes
+Requests per second:    5.40 [#/sec] (mean)
+Time per request:       555.767 [ms] (mean)
+Time per request:       185.256 [ms] (mean, across all concurrent requests)
+Transfer rate:          849.69 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      158  183  26.0    177     273
+Processing:   224  283  68.1    257     421
+Waiting:       54   80  25.4     75     163
+Total:        389  466  83.3    439     662
+
+Percentage of the requests served within a certain time (ms)
+  50%    439
+  66%    460
+  75%    483
+  80%    583
+  90%    645
+  95%    662
+  98%    662
+  99%    662
+ 100%    662 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      3
+Time taken for tests:   3.438 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4519496 bytes
+HTML transferred:       4500460 bytes
+Requests per second:    5.82 [#/sec] (mean)
+Time per request:       515.762 [ms] (mean)
+Time per request:       171.921 [ms] (mean, across all concurrent requests)
+Transfer rate:          1283.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      155  195  34.1    193     320
+Processing:   194  275 110.7    226     531
+Waiting:       57   75  35.5     63     218
+Total:        382  469 127.1    412     819
+
+Percentage of the requests served within a certain time (ms)
+  50%    412
+  66%    434
+  75%    465
+  80%    545
+  90%    718
+  95%    819
+  98%    819
+  99%    819
+ 100%    819 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      3
+Time taken for tests:   2.913 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      972600 bytes
+HTML transferred:       964760 bytes
+Requests per second:    6.87 [#/sec] (mean)
+Time per request:       436.888 [ms] (mean)
+Time per request:       145.629 [ms] (mean, across all concurrent requests)
+Transfer rate:          326.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      177  208  14.8    208     233
+Processing:   156  173  15.9    173     223
+Waiting:       68   85  16.8     78     131
+Total:        342  380  24.3    383     449
+
+Percentage of the requests served within a certain time (ms)
+  50%    383
+  66%    390
+  75%    396
+  80%    399
+  90%    405
+  95%    449
+  98%    449
+  99%    449
+ 100%    449 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      3
+Time taken for tests:   5.549 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4835606 bytes
+HTML transferred:       4800420 bytes
+Requests per second:    5.41 [#/sec] (mean)
+Time per request:       554.902 [ms] (mean)
+Time per request:       184.967 [ms] (mean, across all concurrent requests)
+Transfer rate:          851.01 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      152  209  45.6    198     354
+Processing:   228  304  67.6    301     526
+Waiting:       58   88  26.0     77     146
+Total:        399  513  84.7    509     711
+
+Percentage of the requests served within a certain time (ms)
+  50%    509
+  66%    542
+  75%    572
+  80%    576
+  90%    660
+  95%    664
+  98%    711
+  99%    711
+ 100%    711 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      3
+Time taken for tests:   4.567 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6779231 bytes
+HTML transferred:       6750690 bytes
+Requests per second:    6.57 [#/sec] (mean)
+Time per request:       456.694 [ms] (mean)
+Time per request:       152.231 [ms] (mean, across all concurrent requests)
+Transfer rate:          1449.62 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      161  192  22.2    194     255
+Processing:   192  236  56.7    220     463
+Waiting:       50   68  14.4     66     115
+Total:        373  428  63.0    419     659
+
+Percentage of the requests served within a certain time (ms)
+  50%    419
+  66%    430
+  75%    436
+  80%    439
+  90%    521
+  95%    573
+  98%    659
+  99%    659
+ 100%    659 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      3
+Time taken for tests:   3.985 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1458900 bytes
+HTML transferred:       1447140 bytes
+Requests per second:    7.53 [#/sec] (mean)
+Time per request:       398.545 [ms] (mean)
+Time per request:       132.848 [ms] (mean, across all concurrent requests)
+Transfer rate:          357.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      187  204  12.9    204     232
+Processing:   142  163  11.7    165     191
+Waiting:       65   77   6.9     77      94
+Total:        334  367  18.4    363     406
+
+Percentage of the requests served within a certain time (ms)
+  50%    363
+  66%    370
+  75%    376
+  80%    393
+  90%    396
+  95%    397
+  98%    406
+  99%    406
+ 100%    406 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      4
+Time taken for tests:   1.569 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1611856 bytes
+HTML transferred:       1600140 bytes
+Requests per second:    6.37 [#/sec] (mean)
+Time per request:       627.773 [ms] (mean)
+Time per request:       156.943 [ms] (mean, across all concurrent requests)
+Transfer rate:          1002.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      160  190  16.7    198     213
+Processing:   243  267  21.9    264     313
+Waiting:       58   74  11.8     72      94
+Total:        403  458  30.4    455     515
+
+Percentage of the requests served within a certain time (ms)
+  50%    455
+  66%    457
+  75%    479
+  80%    486
+  90%    515
+  95%    515
+  98%    515
+  99%    515
+ 100%    515 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      4
+Time taken for tests:   1.448 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259751 bytes
+HTML transferred:       2250230 bytes
+Requests per second:    6.91 [#/sec] (mean)
+Time per request:       579.131 [ms] (mean)
+Time per request:       144.783 [ms] (mean, across all concurrent requests)
+Transfer rate:          1524.21 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      154  185  22.4    186     217
+Processing:   198  234  23.0    235     271
+Waiting:       44   66  19.1     65     108
+Total:        352  419  33.4    431     456
+
+Percentage of the requests served within a certain time (ms)
+  50%    431
+  66%    436
+  75%    445
+  80%    449
+  90%    456
+  95%    456
+  98%    456
+  99%    456
+ 100%    456 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      4
+Time taken for tests:   1.363 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      486300 bytes
+HTML transferred:       482380 bytes
+Requests per second:    7.34 [#/sec] (mean)
+Time per request:       545.000 [ms] (mean)
+Time per request:       136.250 [ms] (mean, across all concurrent requests)
+Transfer rate:          348.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      180  199  12.9    197     220
+Processing:   144  162  12.6    167     182
+Waiting:       76   84   9.3     82     104
+Total:        329  361  23.2    367     394
+
+Percentage of the requests served within a certain time (ms)
+  50%    367
+  66%    371
+  75%    378
+  80%    393
+  90%    394
+  95%    394
+  98%    394
+  99%    394
+ 100%    394 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      4
+Time taken for tests:   2.695 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3223712 bytes
+HTML transferred:       3200280 bytes
+Requests per second:    7.42 [#/sec] (mean)
+Time per request:       538.962 [ms] (mean)
+Time per request:       134.740 [ms] (mean, across all concurrent requests)
+Transfer rate:          1168.23 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      152  198  25.9    201     278
+Processing:   235  278  39.4    262     380
+Waiting:       53   95  37.2     83     191
+Total:        403  476  56.9    468     658
+
+Percentage of the requests served within a certain time (ms)
+  50%    468
+  66%    491
+  75%    508
+  80%    513
+  90%    547
+  95%    658
+  98%    658
+  99%    658
+ 100%    658 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      4
+Time taken for tests:   2.499 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4519505 bytes
+HTML transferred:       4500460 bytes
+Requests per second:    8.00 [#/sec] (mean)
+Time per request:       499.740 [ms] (mean)
+Time per request:       124.935 [ms] (mean, across all concurrent requests)
+Transfer rate:          1766.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      146  200  26.4    203     257
+Processing:   201  234  27.2    227     311
+Waiting:       51   72  12.6     71      97
+Total:        369  434  43.7    432     568
+
+Percentage of the requests served within a certain time (ms)
+  50%    432
+  66%    436
+  75%    441
+  80%    453
+  90%    516
+  95%    568
+  98%    568
+  99%    568
+ 100%    568 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      4
+Time taken for tests:   2.183 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      972600 bytes
+HTML transferred:       964760 bytes
+Requests per second:    9.16 [#/sec] (mean)
+Time per request:       436.646 [ms] (mean)
+Time per request:       109.162 [ms] (mean, across all concurrent requests)
+Transfer rate:          435.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      182  208  14.7    207     231
+Processing:   147  166  12.4    166     209
+Waiting:       66   85  16.4     81     131
+Total:        348  374  20.7    374     440
+
+Percentage of the requests served within a certain time (ms)
+  50%    374
+  66%    382
+  75%    386
+  80%    389
+  90%    393
+  95%    440
+  98%    440
+  99%    440
+ 100%    440 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      4
+Time taken for tests:   3.865 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4835569 bytes
+HTML transferred:       4800420 bytes
+Requests per second:    7.76 [#/sec] (mean)
+Time per request:       515.287 [ms] (mean)
+Time per request:       128.822 [ms] (mean, across all concurrent requests)
+Transfer rate:          1221.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      160  192  19.5    189     242
+Processing:   220  275  51.1    270     504
+Waiting:       61   79  17.6     75     138
+Total:        388  467  53.7    467     688
+
+Percentage of the requests served within a certain time (ms)
+  50%    467
+  66%    476
+  75%    487
+  80%    491
+  90%    502
+  95%    550
+  98%    688
+  99%    688
+ 100%    688 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      4
+Time taken for tests:   3.907 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6779246 bytes
+HTML transferred:       6750690 bytes
+Requests per second:    7.68 [#/sec] (mean)
+Time per request:       520.894 [ms] (mean)
+Time per request:       130.223 [ms] (mean, across all concurrent requests)
+Transfer rate:          1694.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      159  204  31.9    201     292
+Processing:   184  268  56.8    284     407
+Waiting:       57   74  15.0     73     129
+Total:        371  472  65.6    488     623
+
+Percentage of the requests served within a certain time (ms)
+  50%    488
+  66%    501
+  75%    514
+  80%    526
+  90%    546
+  95%    579
+  98%    623
+  99%    623
+ 100%    623 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      4
+Time taken for tests:   3.326 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1458900 bytes
+HTML transferred:       1447140 bytes
+Requests per second:    9.02 [#/sec] (mean)
+Time per request:       443.469 [ms] (mean)
+Time per request:       110.867 [ms] (mean, across all concurrent requests)
+Transfer rate:          428.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      183  210  15.3    209     258
+Processing:   138  166  14.8    174     187
+Waiting:       64   79   8.7     78      99
+Total:        338  376  23.5    375     432
+
+Percentage of the requests served within a certain time (ms)
+  50%    375
+  66%    381
+  75%    389
+  80%    392
+  90%    423
+  95%    426
+  98%    432
+  99%    432
+ 100%    432 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      5
+Time taken for tests:   1.252 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1611870 bytes
+HTML transferred:       1600140 bytes
+Requests per second:    7.98 [#/sec] (mean)
+Time per request:       626.221 [ms] (mean)
+Time per request:       125.244 [ms] (mean, across all concurrent requests)
+Transfer rate:          1256.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      160  206  30.8    209     256
+Processing:   229  282  38.0    284     344
+Waiting:       55   69  10.3     70      87
+Total:        401  488  43.8    500     544
+
+Percentage of the requests served within a certain time (ms)
+  50%    500
+  66%    500
+  75%    523
+  80%    530
+  90%    544
+  95%    544
+  98%    544
+  99%    544
+ 100%    544 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      5
+Time taken for tests:   1.282 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2259830 bytes
+HTML transferred:       2250230 bytes
+Requests per second:    7.80 [#/sec] (mean)
+Time per request:       640.912 [ms] (mean)
+Time per request:       128.183 [ms] (mean, across all concurrent requests)
+Transfer rate:          1721.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      189  200  16.8    198     245
+Processing:   205  263  61.0    266     375
+Waiting:       56   66   8.4     68      82
+Total:        404  464  58.2    458     569
+
+Percentage of the requests served within a certain time (ms)
+  50%    458
+  66%    463
+  75%    465
+  80%    564
+  90%    569
+  95%    569
+  98%    569
+  99%    569
+ 100%    569 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      5
+Time taken for tests:   1.066 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      486300 bytes
+HTML transferred:       482380 bytes
+Requests per second:    9.38 [#/sec] (mean)
+Time per request:       532.942 [ms] (mean)
+Time per request:       106.588 [ms] (mean, across all concurrent requests)
+Transfer rate:          445.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      203  215  11.5    212     238
+Processing:   147  169  10.5    171     182
+Waiting:       67   86  11.7     87     105
+Total:        355  385  16.7    387     409
+
+Percentage of the requests served within a certain time (ms)
+  50%    387
+  66%    390
+  75%    394
+  80%    408
+  90%    409
+  95%    409
+  98%    409
+  99%    409
+ 100%    409 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      5
+Time taken for tests:   2.063 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      3223720 bytes
+HTML transferred:       3200280 bytes
+Requests per second:    9.69 [#/sec] (mean)
+Time per request:       515.757 [ms] (mean)
+Time per request:       103.151 [ms] (mean, across all concurrent requests)
+Transfer rate:          1525.99 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      152  188  18.6    189     227
+Processing:   228  262  24.8    260     318
+Waiting:       59   78  14.6     75     120
+Total:        399  450  29.9    455     507
+
+Percentage of the requests served within a certain time (ms)
+  50%    455
+  66%    466
+  75%    473
+  80%    475
+  90%    493
+  95%    507
+  98%    507
+  99%    507
+ 100%    507 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      5
+Time taken for tests:   2.322 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      4519666 bytes
+HTML transferred:       4500460 bytes
+Requests per second:    8.61 [#/sec] (mean)
+Time per request:       580.476 [ms] (mean)
+Time per request:       116.095 [ms] (mean, across all concurrent requests)
+Transfer rate:          1900.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      183  204  17.8    199     245
+Processing:   198  277  50.3    287     370
+Waiting:       57   75  19.0     76     137
+Total:        386  481  57.8    493     602
+
+Percentage of the requests served within a certain time (ms)
+  50%    493
+  66%    516
+  75%    526
+  80%    528
+  90%    566
+  95%    602
+  98%    602
+  99%    602
+ 100%    602 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      5
+Time taken for tests:   1.737 seconds
+Complete requests:      20
+Failed requests:        0
+Total transferred:      972600 bytes
+HTML transferred:       964760 bytes
+Requests per second:    11.52 [#/sec] (mean)
+Time per request:       434.199 [ms] (mean)
+Time per request:       86.840 [ms] (mean, across all concurrent requests)
+Transfer rate:          546.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      185  199   9.5    201     224
+Processing:   151  162   7.8    164     175
+Waiting:       65   75   5.3     75      83
+Total:        343  361   9.3    361     382
+
+Percentage of the requests served within a certain time (ms)
+  50%    361
+  66%    365
+  75%    366
+  80%    368
+  90%    376
+  95%    382
+  98%    382
+  99%    382
+ 100%    382 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.apple.com (be patient).....done
+
+
+Server Software:        Apple
+Server Hostname:        www.apple.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.apple.com
+
+Document Path:          /it/
+Document Length:        160014 bytes
+
+Concurrency Level:      5
+Time taken for tests:   3.115 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      4835598 bytes
+HTML transferred:       4800420 bytes
+Requests per second:    9.63 [#/sec] (mean)
+Time per request:       519.172 [ms] (mean)
+Time per request:       103.834 [ms] (mean, across all concurrent requests)
+Transfer rate:          1515.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      154  201  31.8    199     265
+Processing:   205  273  40.0    268     374
+Waiting:       51   78  23.5     72     174
+Total:        367  474  52.8    476     585
+
+Percentage of the requests served within a certain time (ms)
+  50%    476
+  66%    502
+  75%    515
+  80%    520
+  90%    540
+  95%    540
+  98%    585
+  99%    585
+ 100%    585 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.harvard.edu (be patient).....done
+
+
+Server Software:        nginx
+Server Hostname:        www.harvard.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+Server Temp Key:        X25519 253 bits
+TLS Server Name:        www.harvard.edu
+
+Document Path:          /
+Document Length:        225023 bytes
+
+Concurrency Level:      5
+Time taken for tests:   3.214 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      6779501 bytes
+HTML transferred:       6750690 bytes
+Requests per second:    9.34 [#/sec] (mean)
+Time per request:       535.603 [ms] (mean)
+Time per request:       107.121 [ms] (mean, across all concurrent requests)
+Transfer rate:          2060.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      171  207  22.8    203     260
+Processing:   203  254  37.4    242     343
+Waiting:       48   70  21.3     63     151
+Total:        374  461  50.4    445     555
+
+Percentage of the requests served within a certain time (ms)
+  50%    445
+  66%    485
+  75%    498
+  80%    505
+  90%    549
+  95%    554
+  98%    555
+  99%    555
+ 100%    555 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.mit.edu (be patient).....done
+
+
+Server Software:        Apache
+Server Hostname:        www.mit.edu
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH P-256 256 bits
+TLS Server Name:        www.mit.edu
+
+Document Path:          /
+Document Length:        48238 bytes
+
+Concurrency Level:      5
+Time taken for tests:   2.529 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      1458900 bytes
+HTML transferred:       1447140 bytes
+Requests per second:    11.86 [#/sec] (mean)
+Time per request:       421.503 [ms] (mean)
+Time per request:       84.301 [ms] (mean, across all concurrent requests)
+Transfer rate:          563.34 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      179  205  13.1    204     228
+Processing:   131  166  19.6    164     234
+Waiting:       54   79  11.8     78     104
+Total:        341  371  22.7    365     436
+
+Percentage of the requests served within a certain time (ms)
+  50%    365
+  66%    369
+  75%    386
+  80%    392
+  90%    405
+  95%    412
+  98%    436
+  99%    436
+ 100%    436 (longest request)

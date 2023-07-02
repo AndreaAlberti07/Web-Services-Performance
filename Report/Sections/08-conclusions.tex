@@ -1,0 +1,23 @@
+The findings of this study demonstrate that the number of parallel TCP connections has a significant impact on page load time, 
+although there is a diminishing return as the number of connections increases excessively. Based on the results, the default 
+choice of six concurrent TCP connections made by browsers appears to be a reasonable selection.
+
+Additionally, caching mechanisms, including the 'Expiration,' 'Validation,' and 'Heuristic' strategies, consistently contribute 
+to improved performance. The results clearly indicate the overall benefits of caching, highlighting its importance in reducing 
+page load time and enhancing the user experience.
+
+The analysis of different HTTP versions revealed that each new version outperforms its predecessor, regardless of the caching 
+mechanism employed. These performance improvements can be attributed to the enhancements introduced in each new version, 
+emphasizing the significance of utilizing the latest HTTP protocols.
+
+Regarding the performance analysis of the analyzed websites, it can be concluded that the fastest website is 'MIT,' followed 
+by 'Harvard' and 'Apple.'
+
+Although the direct impact of warm-up time on the analyzed websites was found to be not highly relevant, primarily due to 
+limited available data, notable observations were made regarding its influence on the RPS (Requests Per Second) and TPR SD (Standard Deviation) 
+metrics. Specifically, it was observed that a warm-up time of 6 seconds, comprising approximately 30\% of the total measurement
+time, resulted in a peak in RPS and a decrease in TPR SD. These findings suggest that allocating an adequate warm-up period for servers can yield positive implications for their overall performance.
+
+In conclusion, this study provides valuable insights into various aspects of web technologies. The optimal number of parallel TCP 
+connections, the importance of caching mechanisms, the superiority of newer HTTP versions, and the potential impact of warm-up 
+time allocation for the websites performance assessment.

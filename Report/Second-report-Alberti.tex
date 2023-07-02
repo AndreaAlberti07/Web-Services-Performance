@@ -1,0 +1,147 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{titling}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float} %to place tables properly
+\usepackage{placeins} %to place tables properly
+\usepackage{fancyhdr} % Package to make headers 
+\usepackage{soul}% Package for highlights
+\usepackage{enumitem}% Package to make lists
+\usepackage{geometry}% Package for margin adjusting
+\usepackage[table]{xcolor}% Package for table colors
+\usepackage[hidelinks]{hyperref}
+\usepackage{multirow}
+\usepackage{listings} % Package to insert code
+\usepackage{titlesec} % Package to change title format
+
+
+%°°°°°°°°°°°°°°°°°° LAYOUT AND COMMAND DEFINITION °°°°°°°°°°°°°°°°°°°°
+
+\definecolor{pyblue}{RGB}{31,119,240}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\geometry{
+  left=2cm, % adjust the left margin
+  right=2cm, % adjust the right margin
+  top=2cm, % adjust the top margin
+  bottom=2cm, % adjust the bottom margin
+}
+
+\titlespacing*{\subsection}{0pt}{12pt}{7pt}
+\titlespacing*{\subsubsection}{0pt}{10pt}{2pt}
+
+
+\graphicspath{{Figures/}}
+
+
+%°°°°°°°°°°°°°°°°°°°°°DEFINE TITLE PAGE°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+\pretitle{
+  \begin{center}
+  \LARGE
+  \includegraphics[width=15.1cm,height=3.05cm]{Logo_unipv.png}\vspace*{1cm}\\[\bigskipamount]}
+
+
+%Title structure
+\title{\Large {Enterprise Digital Infrastructure Course} \vspace{0.2cm}
+     \rule{\textwidth}{0.3pt} \vspace{0.0cm} % insert an horizontal line. Thickness 0.3pt
+     \textbf{Web Services Performance} \vspace{0.0cm} %bold title
+     \rule{\textwidth}{0.3pt}}
+
+%information about author
+\author{Andrea Alberti \vspace{0.1cm}\\
+        \small Department of Computer Engineering - Data Science \vspace{0.2cm}\\
+        \small University of Pavia, Italy \vspace{0.2cm}\\
+        \small Contact: andrea.alberti01@universitadipavia.it\\
+        \small GitHub: \small \url{https://github.com/AndreaAlberti07}}
+
+\tiny \date{\today}
+
+%°°°°°°°°°°°°°°°°°°°°°°DOCUMENT TITLE PAGE°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+\begin{document}
+
+%Insert a short summary of your lab activities.
+
+\begin{titlepage}
+        \maketitle 
+        \thispagestyle{empty} 
+\begin{multicols*}{2}
+
+\hrule
+\tableofcontents
+\newcolumn
+\hrule
+\begin{abstract}
+        \noindent
+        \input{./Sections/01-abstract.tex}
+\end{abstract}
+
+
+        
+\end{multicols*}
+\end{titlepage}
+
+
+\newpage
+\listoffigures
+\listoftables
+
+\thispagestyle{empty}
+\newpage
+\begin{multicols}{2}
+\clearpage
+\setcounter{page}{1}
+
+%°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°BEGIN BODY OF THE DOCUMENT°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+%°°°°°° General introduction and setup °°°°°°
+\section{Introduction}
+\input{./Sections/02-introduction.tex}
+\section{Experimental Setup}
+\label{sec:experimental_setup}
+\input{./Sections/02-experimental_setup.tex}
+
+
+%°°°°°° Web Services °°°°°°
+\section{Web Services}
+\input{./Sections/03-web_services.tex}
+\subsection{Parallel TCP}
+\input{./Sections/04-parallel_tcp.tex}
+\subsection{Caching Policy}
+\input{./Sections/05-caching_policy.tex}
+\subsection{Performance}
+\input{./Sections/06-performance.tex}
+\subsection{Warm-up time impact}
+\input{./Sections/07-warm_up_time_impact.tex}
+\subsection{Conclusions}
+\input{./Sections/08-conclusions.tex}
+
+%°°°°°° Appendix °°°°°°
+
+\end{multicols}
+\appendix
+\input{./Sections/09-appendix.tex}
+
+\begin{multicols}{2}
+
+
+
+%°°°°°° Mail °°°°°°
+
+
+
+
+%°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°END BODY OF THE DOCUMENT°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+
+\end{multicols}
+
+%\bibliographystyle{unsrtnat}
+%\bibliography{References}
+\end{document}
