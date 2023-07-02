@@ -34,7 +34,7 @@ The project report presents detailed analysis and findings from the experiments.
 - Superiority of newer HTTP versions
 - Potential impact of warm-up time allocation
 
-For a comprehensive overview of the results, please refer to the [full project report](link-to-report-file.pdf).
+For a comprehensive overview of the results, please refer to the [full project report]([link-to-report-file.pdf](https://github.com/AndreaAlberti07/Web-Services-Performance/blob/main/Report/Second-report-Alberti.pdf)).
 
 ## Tools
 
