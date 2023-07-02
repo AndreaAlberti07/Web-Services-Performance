@@ -13,7 +13,7 @@ This header allows servers to communicate specific caching directives to clients
 time a resource should be considered fresh ('max-age') and whether the resource can be cached by intermediate proxies ('public') or the browser ('private').
 To ensure the validity of cached resources, several headers are utilized in caching strategies. The 'Expires' header specifies the date and time after which 
 the resource should be considered stale. The 'Last-Modified' header indicates the date and time of the resource's last modification. Additionally, 
-the 'ETag' header provides a unique identifier for the resource. These headers enable three main non-mutually exclusive strategies for validating 
+the 'Etag' header provides a unique identifier for the resource. These headers enable three main non-mutually exclusive strategies for validating 
 cached resources: 'Expiration', 'Validation', and 'Heuristic'. The \textbf{Expiration} and \textbf{Heuristic} strategies generally result in faster response times, 
 as they rely on pre-determined expiration dates or heuristics to determine the freshness of the cached resources. On the other hand, 
 the \textbf{Validation} strategy requires a round-trip to the server to confirm the validity of the cached resources, resulting in slower response times.
